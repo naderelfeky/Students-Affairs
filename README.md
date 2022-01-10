@@ -17,3 +17,5 @@ This application contains two tables in the database.
  
 To use this application you have to create a database that you can go to (database/users table) and copy SQL and create a table for users.
 And students go to (Database/studentsTable) and copy the sql and create a student table.
+
+This is the link for the application video on LinkedIn("https://www.linkedin.com/posts/nader-elfeky-224865203_student-affairs-application-javafx-connect-activity-6886204369482719232-x6sa")
