@@ -1,5 +1,6 @@
-# Students-Affairs
-Student Affairs Application (JavaFX) Connect with Database (MySQL)
+# Students-Affairs app
+
+Desktop Application for Student Affairs System using Java JDBC driver and GUI using FXML.
 
 This application is a student affairs application designed to manage students of FCI MU (Faculty of Computing and Information at Menoufia University).
 
