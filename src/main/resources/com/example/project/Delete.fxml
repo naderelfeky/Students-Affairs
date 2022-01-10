@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="bodybg" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="1550.0" styleClass="bodybg" stylesheets="@background.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.DeleteController">
+   <children>
+      <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.98" prefHeight="900.0" prefWidth="360.0" style="-fx-background-color: #232a34;">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/useraccount.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="insertButton" layoutX="30.0" layoutY="120.0" mnemonicParsing="false" onAction="#insert" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #FFFF;" styleClass="background" stylesheets="@background.css" text="Insert">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="updateButton" layoutX="30.0" layoutY="200.0" mnemonicParsing="false" onAction="#update" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #FFFF;" styleClass="background" stylesheets="@background.css" text="Update">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="deleteButton" layoutX="30.0" layoutY="280.0" mnemonicParsing="false" onAction="#delete" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #232a34;" styleClass="background" stylesheets="@background.css" text="Delete" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="displayButton" layoutX="30.0" layoutY="360.0" mnemonicParsing="false" onAction="#display" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #FFFF;" styleClass="background" stylesheets="@background.css" text="Display">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button layoutX="30.0" layoutY="440.0" mnemonicParsing="false" onAction="#materialRegistration" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #FFFF;" styleClass="background" stylesheets="@background.css" text="Term study materials">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="logout" layoutX="290.0" layoutY="15.0" mnemonicParsing="false" onAction="#logIn" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #232a34;" styleClass="logout" stylesheets="@background.css" textFill="WHITE" />
+            <Button fx:id="displayButton1" layoutX="30.0" layoutY="520.0" mnemonicParsing="false" onAction="#gPA" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #FFFF;" styleClass="background" stylesheets="@background.css" text="GPA">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="336.0" prefHeight="830.0" prefWidth="1190.0">
+         <children>
+            <AnchorPane layoutX="300.0" layoutY="150.0" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #232a34;">
+               <children>
+                  <Label layoutX="32.0" layoutY="165.0" prefHeight="30.0" prefWidth="100.0" text="ID" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="deleteTextField" layoutX="142.0" layoutY="165.0" prefHeight="30.0" prefWidth="300.0" />
+                  <Label alignment="CENTER" layoutY="47.0" prefHeight="62.0" prefWidth="500.0" text="Delete Student" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Label>
+                  <Button layoutX="180.0" layoutY="363.0" mnemonicParsing="false" onAction="#deleteStudent" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: green;" styleClass="addButton" text="Delete">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font></Button>
+                  <Label fx:id="deleteLabel" alignment="CENTER" layoutX="37.0" layoutY="250.0" prefHeight="62.0" prefWidth="405.0" textFill="WHITE" />
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.SignUpController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="262.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/signup.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="200.0" prefHeight="450.0" prefWidth="300.0" style="-fx-background-color: #fff;">
+         <children>
+            <Label fx:id="signUpLabel" alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="300.0" text="Sign up" textFill="#3b31f4">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <TextField fx:id="userNameTextField" layoutX="38.0" layoutY="80.0" prefHeight="26.0" prefWidth="250.0" promptText="USERNAME" />
+            <ImageView fitHeight="26.0" fitWidth="30.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="30.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/password.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="30.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/password.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="idTextField" layoutX="38.0" layoutY="260.0" prefHeight="26.0" prefWidth="250.0" promptText="ID    EX: 30145781954471" />
+            <ImageView fitHeight="26.0" fitWidth="30.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/id.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="signUpButton" layoutX="50.0" layoutY="355.0" mnemonicParsing="false" onAction="#isValid" prefHeight="27.0" prefWidth="100.0" style="-fx-background-color: #3b31f4;" text="sign up" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="logInButton" accessibleRole="HYPERLINK" layoutX="175.0" layoutY="357.0" mnemonicParsing="false" onAction="#logIn" prefHeight="27.0" prefWidth="100.0" text="login" />
+            <PasswordField fx:id="confirmationTextField" layoutX="38.0" layoutY="200.0" prefHeight="26.0" prefWidth="250.0" promptText="confirmation password" />
+            <PasswordField fx:id="passwordTextField" layoutX="38.0" layoutY="140.0" prefHeight="26.0" prefWidth="250.0" promptText="password" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+.bodybg {
+    -fx-background-image:url('images/background.jpg');
+    -fx-background-size: 100% 100%;
+}
+.logout:hover {
+    -fx-background-image:url('images/Logout.jpg');
+    -fx-background-size: 100% 100%;
+}
+.logout {
+    -fx-background-image:url('images/Logout.png');
+    -fx-background-size: 100% 100%;
+}
+.background:hover {
+   -fx-border-color: #0cc3fe;
+  -fx-text-fill:#44a6c6;
+}
+.addButton:hover {
+
+  -fx-text-fill:white;
+}
+.choice-box .context-menu { -fx-background-color:  #232a34; }
+
+.choice-box .menu-item:focused { -fx-background-color:  #0cc3fe; }
+
+.choice-box .menu-item > .label { -fx-text-fill: white; }
+
+.choice-box .menu-item:focused > .label { -fx-text-fill: #232a34; }

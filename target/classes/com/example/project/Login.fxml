@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.LogInController">
+   <children>
+      <AnchorPane layoutX="215.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="285.0">
+         <children>
+            <PasswordField fx:id="passwordTextFiled" focusTraversable="false" layoutX="32.0" layoutY="250.0" prefHeight="26.0" prefWidth="227.0" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="249.0" />
+            <Label fx:id="userNameLabel" layoutX="32.0" layoutY="90.0" prefHeight="32.0" prefWidth="100.0" text="User name" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="92.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <TextField fx:id="userNameTextFiled" layoutX="32.0" layoutY="140.0" prefHeight="26.0" prefWidth="227.0" style="-fx-focus-traversable: true;" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="141.0" />
+            <Label fx:id="passwordLabel" layoutX="32.0" layoutY="200.0" prefHeight="32.0" prefWidth="81.0" text="Password" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="209.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Button fx:id="loginButton" layoutX="35.0" layoutY="355.0" mnemonicParsing="false" onAction="#loginIsValid" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: green;" text="Login" textFill="WHITE" />
+            <CheckBox fx:id="rememberMeCheckBox" layoutX="80.0" layoutY="310.0" mnemonicParsing="false" text="Remember Me" />
+            <Button fx:id="signUpButton" layoutX="160.0" layoutY="355.0" mnemonicParsing="false" onAction="#signUp" prefHeight="27.0" prefWidth="101.0" text="sign up " />
+            <Label fx:id="welcomeLabel" alignment="CENTER" prefHeight="92.0" prefWidth="292.0" text="Welcome">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="450.0" prefWidth="200.0" style="-fx-background-color: #b8e2e0;">
+         <children>
+            <ImageView fitHeight="163.0" fitWidth="214.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/login.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
