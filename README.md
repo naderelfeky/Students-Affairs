@@ -4,6 +4,10 @@ Desktop Application for Student Affairs System using Java JDBC driver and GUI us
 
 This application is a student affairs application designed to manage students of FCI MU (Faculty of Computing and Information at Menoufia University).
 
+This is a complete desktop application with data base it's features are recording new students , recording new employees , record grades of students 
+, calculate GPA of student , recording the new subjects after calculating GPA and determine what number of subjects that he has to record in current
+term and there is a report which say what is the largest degree in every subject and sorted them.
+
 I implemented some items in the college list.
 
 List of colleges I worked on("https://drive.google.com/file/d/1e5Bs3kpcLBQEFGGeSeJEK5jDRvABzku7/view")
