@@ -24,15 +24,27 @@ And students go to (Database/studentsTable) and copy the sql and create a studen
 
 This is the link for the application video on LinkedIn("https://www.linkedin.com/posts/nader-elfeky-224865203_student-affairs-application-javafx-connect-activity-6886204369482719232-x6sa")
 
-<h1>layouts</h1>
+<h1></h1>
 
-![login](https://user-images.githubusercontent.com/73117120/173721195-b796c969-2a77-4256-b297-499fc790dbb7.png)
-![signup](https://user-images.githubusercontent.com/73117120/173721226-59169bd7-2958-429c-946c-dc45087e6f28.png)
-![insert](https://user-images.githubusercontent.com/73117120/173721065-15d212b4-c494-4d20-b76f-faa8afbcd478.png)
-![update](https://user-images.githubusercontent.com/73117120/173720931-8d76efce-9cc6-4a5b-8b12-da2520b060d0.png)
-![delete](https://user-images.githubusercontent.com/73117120/173721012-2e9516db-b814-4e4c-a0d9-d05f02bbc53a.png)
-![display](https://user-images.githubusercontent.com/73117120/173720672-a836e4d3-9a76-44cd-a10d-febe3b410a58.png)
-![material registration](https://user-images.githubusercontent.com/73117120/173720977-e869545c-c72d-4966-b066-e4f79feeafae.png)
-![GPA](https://user-images.githubusercontent.com/73117120/173720791-01b546c0-731d-450d-ba51-cc16674f0553.png)
+
+https://user-images.githubusercontent.com/73117120/174418056-39fc550d-6653-4f80-8b2e-435a6a225d00.mp4
+
+
+https://user-images.githubusercontent.com/73117120/174418753-03c3c2b2-e145-43de-a73a-a464992e0061.mp4
+
+
+
+https://user-images.githubusercontent.com/73117120/174418760-bb4492a1-d5c8-4f88-9ee8-894bc71f9cdb.mp4
+
+
+
+https://user-images.githubusercontent.com/73117120/174418776-58dc1ee8-5ab0-4937-a3b4-7995c2f4ddf8.mp4
+
+
+
+https://user-images.githubusercontent.com/73117120/174418779-ba3ef7c0-b0a2-4efb-ad03-63b86aebc090.mp4
+
+
+
 
 
